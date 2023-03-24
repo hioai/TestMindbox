@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b0ed4daa-4ed0-4e63-a11f-d48d7aa4083d": {
+      "ProjectGuid": "b0ed4daa-4ed0-4e63-a11f-d48d7aa4083d",
+      "DisplayName": "WindEnergy",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

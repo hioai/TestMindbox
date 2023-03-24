@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindEnergy.exe" version="1.0.0.0" publicKeyToken="d28e3638618c7f49" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindEnergy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindEnergy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindEnergy.exe" size="21944">
+      <assemblyIdentity name="WindEnergy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q2KsZBXPEmWhaqgN80f7nwZelz//sEhWRK2ROBqIhZk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindEnergy.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VKIREEVA\hioai" issuerKeyHash="7dcd6ba028e26604208b4d487752f9651fb58ba0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QU5NKB4Mv2g83Rw60H47tlBq/5GnVElWKbHfA+faVCk=</DigestValue></Reference></SignedInfo><SignatureValue>dsEdlD5s/gXUFxXgy9vuYHUkaPCpA+TAAjZV3mENe3N7GNkx9irzyxh5tgycFzttwTAiivkezlQsCGFQIivY61UPjlNzRKE4L32tHH1wFY9De4qLlrGdko7Vm9gRWEwaFSG2Y2DoFnR10BpRE8+p1OIV7SUmA5vCUisg7H/IFVU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xnUT7DWyY4qRy8Kd16SDJrav00kYdo4/pl7HWJF03ky9FQqYwHOo206Fo2C7qQeZdqb4KAdYfNtBSjK5JdQ/zD2Q2xFh725PrsRlyyHfl5LAI2jnawlhBi9X0L/u//yWRMLd2o9biGeit0VkInAyI74O46BkYloFXLn9gVYbqYE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2954dae703dfb129564954a791ff6a50b63b7ed03a1cdd3c68bf0c1e284d4e41" Description="" Url=""><as:assemblyIdentity name="WindEnergy.exe" version="1.0.0.0" publicKeyToken="d28e3638618c7f49" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VKIREEVA\hioai</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w16VDQAS0DKhkz3Q8S3upEbq4h9p18mPkYF0uSo9itk=</DigestValue></Reference></SignedInfo><SignatureValue>CMvTaXlAh5i6zS23tVJW6QegsmUfYNG3wm/Q5l7p6eS2fcioE6qneKvA3y6iUXG3cIdI3Jqg91d/jknooNdZRQ5mFjqlk9jVvzHK1YeXtbVWMwJ6cUpKHw1bVRQpbTWZenZTVcSfSV8SaXi9/9+5hsmWUU+BItjTKu/1lefYi6U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xnUT7DWyY4qRy8Kd16SDJrav00kYdo4/pl7HWJF03ky9FQqYwHOo206Fo2C7qQeZdqb4KAdYfNtBSjK5JdQ/zD2Q2xFh725PrsRlyyHfl5LAI2jnawlhBi9X0L/u//yWRMLd2o9biGeit0VkInAyI74O46BkYloFXLn9gVYbqYE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQb+tYClvNpIJAvBCVvzBMGTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVgBLAEkAUgBFAEUAVgBBAFwAaABpAG8AYQBpMB4XDTIyMDEyNDAxMDc0M1oXDTIzMDEyNDA3MDc0M1owJzElMCMGA1UEAx4cAFYASwBJAFIARQBFAFYAQQBcAGgAaQBvAGEAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxnUT7DWyY4qRy8Kd16SDJrav00kYdo4/pl7HWJF03ky9FQqYwHOo206Fo2C7qQeZdqb4KAdYfNtBSjK5JdQ/zD2Q2xFh725PrsRlyyHfl5LAI2jnawlhBi9X0L/u//yWRMLd2o9biGeit0VkInAyI74O46BkYloFXLn9gVYbqYECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBl3t8PR9HwB/ERpoviFRuYw2/9w8N3/nz2p/4ICXolCDj9C4SDsMNR/e6/ZgPP+fKJ+z4SC8GHPi4YUvbHI/YAGLztsjSxGqNqULEbusPbzhYzs0rskOcfLONzqIVvyf+kc7Fizg2pPtP3OYTaUnR6m+l1kNmX3UC6soK+9QYN/w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
