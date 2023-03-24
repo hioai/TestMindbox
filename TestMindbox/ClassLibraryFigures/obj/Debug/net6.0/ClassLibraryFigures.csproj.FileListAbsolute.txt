@@ -1,0 +1,12 @@
+C:\Users\hioai\source\repos\ClassLibraryFigures\bin\Debug\net6.0\ClassLibraryFigures.deps.json
+C:\Users\hioai\source\repos\ClassLibraryFigures\bin\Debug\net6.0\ClassLibraryFigures.dll
+C:\Users\hioai\source\repos\ClassLibraryFigures\bin\Debug\net6.0\ClassLibraryFigures.pdb
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.csproj.AssemblyReference.cache
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.AssemblyInfoInputs.cache
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.AssemblyInfo.cs
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.csproj.CoreCompileInputs.cache
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.dll
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\refint\ClassLibraryFigures.dll
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ClassLibraryFigures.pdb
+C:\Users\hioai\source\repos\ClassLibraryFigures\obj\Debug\net6.0\ref\ClassLibraryFigures.dll
